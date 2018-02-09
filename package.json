@@ -7,7 +7,7 @@
   "author": "Dwr",
   "license": "MIT",
   "scripts": {
-    "prestart": "node buildScripts/startMessage.js",
+    "prestart": "babel-node buildScripts/startMessage.js",
     "start": " npm-run-all --parallel security-check open:src",
     "open:src": "node buildScripts/server.js",
     "security-check": "nsp check",
