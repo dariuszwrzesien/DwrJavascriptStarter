@@ -3,17 +3,15 @@
   "version": "1.0.0",
   "description": "Starer for JavaScript projects",
   "scripts": {
-  },
-  "author": "Dwr",
-  "license": "MIT",
-  "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
     "start": " npm-run-all --parallel security-check open:src",
-    "open:src": "node buildScripts/server.js",
+    "open:src": "babel-node buildScripts/server.js",
     "security-check": "nsp check",
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel open:src localtunnel"
   },
+  "author": "Dwr",
+  "license": "MIT",
   "dependencies": {
     "whatwg-fetch": "1.0.0"
   },
