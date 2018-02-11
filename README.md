@@ -52,3 +52,13 @@ Travis CI is a hosted, distributed continuous integration service used to build 
 [![Build status](https://ci.appveyor.com/api/projects/status/03e1g8klwc3gmpsc?svg=true)](https://ci.appveyor.com/project/dariuszwrzesien/dwrjavascriptstarter)
 
 AppVeyor Continuous Integration solution for Windows.
+
+### Mock HTTP
+#### JSON Schema Faker: 
+ - faker.js, 
+ - change.js, 
+ - randexp.js
+ 
+#### JSON Server
+Full fake REST API with zero coding in less than 30 seconds (seriously)
+Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.
