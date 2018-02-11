@@ -10,18 +10,23 @@ Starter for JavaScript projects.
 
 ## Web Server
 ### Express
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
 ## Automation
 ### NPM Scripts
+Spm supports the "scripts" property of the package.json file, for the following scripts: pre/post install, pre/post start, pre/post stop and many more.
 
 ## Transpiling
 ### Babel
+Babel has support for the latest version of JavaScript through syntax transformers. Babel allow you to use new syntax, right now without waiting for browser support.
 
 ## Bundling
 ### WebPack
+Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
 
 ## Lint
 ### ESLint
+ESLint is an open source project originally created by Nicholas C. Zakas in June 2013. Its goal is to provide a pluggable linting utility for JavaScript.
 
 ## Testing
 ### Test framework: Mocha
