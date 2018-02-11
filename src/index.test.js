@@ -19,4 +19,13 @@ describe('index.html', () =>{
             window.close();
         });
     });
+    it('should say Users', (done) => {
+        const index = fs.readFileSync('./src/index.html', "utf-8");
+        jsdom.env(index, function(err, window) {
+            const h1= window.document.getElementsByTagName('h1')[1];
+            expect(h1.innerHTML).to.equal("Users");
+            done();
+            window.close();
+        });
+    });
 });
