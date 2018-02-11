@@ -1,5 +1,6 @@
 # DwrJavascriptStarter
 [![Build Status](https://travis-ci.org/dariuszwrzesien/DwrJavascriptStarter.svg?branch=master)](https://travis-ci.org/dariuszwrzesien/DwrJavascriptStarter)
+[![Build status](https://ci.appveyor.com/api/projects/status/03e1g8klwc3gmpsc?svg=true)](https://ci.appveyor.com/project/dariuszwrzesien/dwrjavascriptstarter)
 
 Starter for JavaScript projects.
 
@@ -34,6 +35,15 @@ Starter for JavaScript projects.
 **JSDOM** is a pure-JavaScript implementation of many web standards, notably the WHATWG DOM and HTML Standards, for use with Node.js. In general, the goal of the project is to emulate enough of a subset of a web browser to be useful for testing and scraping real-world web applications.
 
 ## Continuous Integration
-### Travis CI
+
+On Travis CI we can check if our application works fine on Linux/Mac environment. Using AppVeryor we make sure our application works on Windows.
+
+### Travis CI (Linux/Mac Environment)
 [![Build Status](https://travis-ci.org/dariuszwrzesien/DwrJavascriptStarter.svg?branch=master)](https://travis-ci.org/dariuszwrzesien/DwrJavascriptStarter)
+
 Travis CI is a hosted, distributed continuous integration service used to build and test software projects hosted at GitHub.
+
+### AppVeyor (Windows Environment)
+[![Build status](https://ci.appveyor.com/api/projects/status/03e1g8klwc3gmpsc?svg=true)](https://ci.appveyor.com/project/dariuszwrzesien/dwrjavascriptstarter)
+
+AppVeyor Continuous Integration solution for Windows.
