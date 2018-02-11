@@ -1,4 +1,6 @@
 # DwrJavascriptStarter
+[![Build Status](https://travis-ci.org/dariuszwrzesien/DwrJavascriptStarter.svg?branch=master)](https://travis-ci.org/dariuszwrzesien/DwrJavascriptStarter)
+
 Starter for JavaScript projects.
 
 ## Package Manager
@@ -33,3 +35,5 @@ Starter for JavaScript projects.
 
 ## Continuous Integration
 ### Travis CI
+[![Build Status](https://travis-ci.org/dariuszwrzesien/DwrJavascriptStarter.svg?branch=master)](https://travis-ci.org/dariuszwrzesien/DwrJavascriptStarter)
+Travis CI is a hosted, distributed continuous integration service used to build and test software projects hosted at GitHub.
